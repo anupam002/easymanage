@@ -1,7 +1,6 @@
 #Easy Manage Application
-This project is basically divided into two parts:
 
-Wasy Manage application developed using spring boot, H2 In memory database and Embedded tomcat server.
+Easy Manage application developed using spring boot, H2 In memory database and Embedded tomcat server.
 Application usually launch on 8090 port but user can change port as specific through application.properties file.
 
 # Functionality covered
