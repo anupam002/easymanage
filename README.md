@@ -38,7 +38,7 @@ Testing webservice with cURL:
 
 * *New company*:
 
-    curl -v -H "Content-Type:application/json" -X POST http://localhost:8090/createCompany -d "{\"companyName\":\"Anupam Softwares\",\"address\":\"Bad Godesbers\",\"city\":\"Colonge\",\"country\":\"Germany\",\"email\":\"anupam@gmail.com\",\"phone\":\"9811728738\"}"
+    curl -v -H "Content-Type:application/json" -X POST http://localhost:8090/createCompany -d "{\"companyName\":\"Anupam Softwares\",\"address\":\"Bad Godesbers\",\"city\":\"Colonge\",\"country\":\"Germany\",\"email\":\"anupam@gmail.com\",\"phoneNumber\":\"9811728738\"}"
 
 * *List of all companies*:
 
@@ -50,7 +50,7 @@ Testing webservice with cURL:
 
 * *Updating a company*:
 
-    curl -v -H "Content-Type:application/json" -X PUT http://localhost:8090/updateCompany/1 -d "{\"companyName\":\"Anupam AG\",\"address\":\"Frankfurt\",\"city\":\"Frankfurt\",\"country\":\"Germany\",\"email\":\"anupam@frankfurt.com\",\"phone\":\"3272673678\"}"
+    curl -v -H "Content-Type:application/json" -X PUT http://localhost:8090/updateCompany/1 -d "{\"companyName\":\"Anupam AG\",\"address\":\"Frankfurt\",\"city\":\"Frankfurt\",\"country\":\"Germany\",\"email\":\"anupam@frankfurt.com\",\"phoneNumber\":\"3272673678\"}"
 
 * *Adding Beneficial Owner to company*:
 
