@@ -50,11 +50,11 @@ Testing webservice with cURL:
 
 * *Updating a company*:
 
-    curl -v -H "Content-Type:application/json" -X PUT http://localhost:8090/updateCompany/1 -d "{\"companyName\":\"Anupam AG\",\"address\":\"Frankfurt\",\"city\":\"Frankfurt\",\"country\":\"Germany\",\"email\":\"anupam@frankfurt.com\",\"phoneNumber\":\"3272673678\"}"
+    curl -v -H "Content-Type:application/json" -X POST http://localhost:8090/updateCompany/1 -d "{\"companyName\":\"Anupam AG\",\"address\":\"Frankfurt\",\"city\":\"Frankfurt\",\"country\":\"Germany\",\"email\":\"anupam@frankfurt.com\",\"phoneNumber\":\"3272673678\"}"
 
 * *Adding Beneficial Owner to company*:
 
-    curl -v -H "Content-Type:application/json" -X PUT http://localhost:8090/addBeneficialOwner/1 -d "[{\"beneficialOwnerName\":\"Albert\"},{\"beneficialOwnerName\":\"William richards\"}]"
+    curl -v -H "Content-Type:application/json" -X POST http://localhost:8090/addBeneficialOwner/1 -d "[{\"beneficialOwnerName\":\"Albert\"},{\"beneficialOwnerName\":\"William richards\"}]"
 
 Considerations
 --------------
