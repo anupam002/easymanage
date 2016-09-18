@@ -58,7 +58,7 @@ Testing webservice with cURL:
 
 Considerations
 --------------
- * * For better security we can use token using spring security and we can pass those token with each request header. Accordingly we can retrieve tokens and validate for the same.
+ * * For better security we can use token using spring security and we can pass those token with each request header. Accordingly we can verify valid tokens.
 
 
 
